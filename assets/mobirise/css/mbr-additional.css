@@ -2298,8 +2298,6 @@ a {
   color: #232323;
 }
 .cid-tDvLBkfjlM {
-  padding-top: 225px;
-  padding-bottom: 225px;
   background-image: url("../../../assets/images/concierto-editado-para-web.jpg");
 }
 .cid-tDvLBkfjlM .mbr-section-subtitle {
@@ -2343,105 +2341,66 @@ a {
     padding: 0 1.8rem;
   }
 }
-.cid-tBEtT3BVRw {
-  padding-top: 45px;
-  padding-bottom: 60px;
+.cid-tJ0lw4I9e5 {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   background-image: url("../../../assets/images/banner4.jpg");
-}
-.cid-tBEtT3BVRw .card-box {
-  z-index: 10;
-  position: absolute;
-  padding: 1rem;
-}
-.cid-tBEtT3BVRw .container-fluid {
-  padding: 0;
-}
-.cid-tBEtT3BVRw h5 {
-  margin: 0;
-}
-.cid-tBEtT3BVRw h3 {
-  width: fit-content;
-  display: inline-block;
-  position: relative;
-}
-.cid-tBEtT3BVRw h3:before {
-  position: absolute;
-  content: '';
-  left: 50%;
-  top: -120px;
-  bottom: 0;
-  width: 1px;
-  height: 100px;
-  background: currentColor;
-}
-.cid-tBEtT3BVRw .card {
-  margin: auto;
-  height: 500px;
-  perspective: 800px;
-  cursor: pointer;
-}
-.cid-tBEtT3BVRw .card:hover {
-  z-index: 99;
-}
-.cid-tBEtT3BVRw .card-wrapper {
-  background-position: center;
+  background-position: center center;
+  background-repeat: no-repeat;
   background-size: cover;
-  transition: all 0.3s;
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  transform-origin: top;
-  position: relative;
-  overflow: hidden;
+  align-items: center;
+  min-height: 390px;
 }
-.cid-tBEtT3BVRw .card-wrapper:hover {
-  transform: rotateX(20deg);
+.cid-tJ0lw4I9e5 .mbr-fallback-image.disabled {
+  display: none;
 }
-.cid-tBEtT3BVRw .card-wrapper:hover:before {
-  transform: translateY(-10%);
-  opacity: 1;
-}
-.cid-tBEtT3BVRw .card-wrapper:before {
-  content: "";
-  height: 100%;
+.cid-tJ0lw4I9e5 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
   width: 100%;
-  background: linear-gradient(190deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 90%);
-  clip-path: polygon(0 0, 100% 0, 100% 25%, 0 75%);
-  opacity: 0;
+  height: 100%;
   position: absolute;
-  transition: all 0.3s;
-  transform: translateY(-100%);
+  top: 0;
 }
-.cid-tBEtT3BVRw .card-wrapper a {
-  height: 100%;
-}
-.cid-tBEtT3BVRw .card-wrapper img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  pointer-events: all;
-}
-.cid-tBEtT3BVRw h4 {
-  font-weight: 500;
-  margin-bottom: 0;
-}
-.cid-tBEtT3BVRw .btn {
-  margin: 0 !important;
-  padding: 1rem 2rem;
-}
-@media (max-width: 767px) {
-  .cid-tBEtT3BVRw .card-box {
-    text-align: center;
+@media (max-width: 991px) {
+  .cid-tJ0lw4I9e5 .container {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
-.cid-tBEtT3BVRw .mbr-text {
-  color: #cccccc;
+.cid-tJ0lw4I9e5 .content-container {
+  padding: 10px;
+  width: 100%;
 }
-.cid-tBEtT3BVRw .card-date {
-  color: #cccccc;
+@media (min-width: 768px) {
+  .cid-tJ0lw4I9e5 .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
 }
-.cid-tBEtT3BVRw H1 {
-  color: #000000;
+.cid-tJ0lw4I9e5 .mbr-section-title {
+  color: #ffffff;
+  width: 100%;
+  margin-bottom: 0 !important;
+}
+.cid-tJ0lw4I9e5 .mbr-section-subtitle {
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 0;
+  width: 100%;
+}
+.cid-tJ0lw4I9e5 .mbr-text {
+  color: #FFFFFF;
+  margin-bottom: 0.9rem;
+  margin-top: 20px;
+  width: 100%;
+}
+.cid-tJ0lw4I9e5 .mbr-section-btn {
+  margin-top: 10px;
 }
 .cid-tBKExL4evw {
   padding-top: 90px;

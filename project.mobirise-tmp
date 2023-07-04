@@ -111,6 +111,8 @@
     "gdpr": false,
     "pwa-switcher": true,
     "publishChangesOnly": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@",
     "usedWebp": false,
     "PWA": {
       "enabled": true,
